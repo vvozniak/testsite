@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --my-color: #f8b500;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8149,7 +8150,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #fec771; }
+  color: var(--my-color); }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8499,7 +8500,20 @@ header {
     font-size: 6vw;
     font-weight: 700;
     color: #fff;
+   
     text-transform: uppercase; }
   .hero-wrap .slider-text .desc h3 {
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px; }
+
+    .hero-wrap .slider-text .desc h2 {
+      font-size: 3vw;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #f8b500;
+      margin-left: 15%;
+      
+       }
+
+     
+
