@@ -72,4 +72,10 @@ a:hover{
     @media (max-width: 575.98px) {
       img {
         height: 200px !important; } }
+
+
+    #logo{
+        width: auto !important;
+        height: 50px !important;
+    }
   
