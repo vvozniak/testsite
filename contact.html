@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/animate.min.css" rel="stylesheet" />
+    <link href="./assets/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- dodaj logo z folderu logo do ikonki wyswietlajacej sie u gory-->
+    <link rel="shortcut icon" href="./assets/logo/maybewhite.png">
+
+
+
+    <title>Joachim Woźniak</title>
+
+
+</head>
+
+<body data-bs-theme="light" class="bg-gray-dark">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- navbar-->
+
+
+    <div class="page">
+        <nav id="colorlib-main-nav" role="navigation">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+            <div class="js-fullheight colorlib-table">
+                <div class="img"></div>
+                <div class="colorlib-table-cell js-fullheight">
+                    <div class="row no-gutters">
+                        <div class="col-md-12 text-center">
+                            <h1 class="mb-4"><a href="index.html" class="logo">Menu</a></h1>
+                            <ul>
+                                <li class="active"><a href="index.html"><span>Strona główna</span></a></li>
+                                <li><a href="about.html"><span>Poznaj mnie</span></a></li>
+                                <li><a href="blog.html"><span>Zdjęcia</span></a></li>
+                                <li><a href="contact.html"><span>Kontakt</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="colorlib-page">
+            <header>
+                <div class="container">
+                    <div class="colorlib-navbar-brand">
+                        <a class="colorlib-logo" href="https://www.instagram.com/maybe_movie/" target="_blank"> <img
+                                src="./assets/logo/maybewhite.png" alt="logo" id="logo"> </a>
+                    </div>
+                    <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+                </div>
+            </header>
+
+            <section class="hero-wrap js-fullheight">
+                <div class="container mb-5 pt-5">
+                    <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center m-3"
+                        data-scrollax-parent="true">
+                        <div class="col-md-12 col-lg-6 text-center w-75">
+                            <div class="desc">
+                                <h1 class="">Kontakt</h1>
+                                <div class="container">
+                                    <p>Napisz do mnie, a razem zaplanujemy to czego potrzebujesz!</p>
+                                    </p>
+                                    <a href="https://www.instagram.com/twojprofil" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/logo/envelope.svg" fill="none" class="text-white"
+                                            alt="Instagram Icon" width="64"></a>
+                                    <p><a href="mailto:adres e-mail">jj.wo@foto.com</a></p>
+
+                                    <div class="instagram-icon">
+                                        <a href="https://www.instagram.com/twojprofil" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <img src="./assets/logo/instagram.svg" fill="none" class="text-white"
+                                                alt="Instagram Icon" width="64"></a>
+                                        <p><a href="instagram">@wozniak</a></p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <p class="container font-weight-bold text-white">Chcesz natychmiastowo napisać wiadomość?
+                                Skorzystaj z formularz poniżej!</p>
+                            <a href="#kontakt"><img src="./assets/logo/downarrow.svg" alt="arrow" height="32"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-white text-center" id="kontakt">Formularz</h2>
+
+            <div class="row justify-content-center mt-4">
+
+                <div class="col-lg-9">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Imię"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Twój e-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Tytuł"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Wiadomość"
+                                required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div><!-- End Contact Form -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-black">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <div class="footer-widget">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="index.html">Strona główna</a>
+                                ·
+                                <a href="about.html">Poznaj mnie</a>
+                                ·
+                                <a href="blog.html">Zdjęcia</a>
+                                ·
+                                <a href="contact.html">Kontakt</a>
+                            </p>
+                            <p class="footer-company-name">Joachim Woźniak &copy; 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/popper.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <script src="./assets/lightbox-plus-jquery.js"></script>
+        <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+
+</html>
